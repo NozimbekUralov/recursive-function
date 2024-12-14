@@ -1,18 +1,14 @@
 #include <stdio.h>
 
 void func(int n){
+    if(n == 0) return;
+    printf("%d\n", n);
 
-    printf("%d-start\n", n);
-
-    if(n != 1)
-        func(n - 1);
-
-    printf("%d-end\n", n);
+    func(n - 1);
 }
 
 int main(){ 
 
     func(5);
-
     return 0;
 }
