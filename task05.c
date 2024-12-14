@@ -15,7 +15,7 @@ void func(int n, int m){
 
 int main(){ 
 
-    func(5, 1);
+    func(1, 5);
 
     return 0;
 }
